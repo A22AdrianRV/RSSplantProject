@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-    <channel>
-        <title>TBDPlant_name</title>
-        <description>Insert witty or insightful remark here</description>
-        <link>http://example.org/</link>
-        <pubDate>Sat, 12 Nov 2022 18:30:02 GMT</pubDate>
-        <managingEditor>A22AdrianRV@iessanclemente.net</managingEditor>
-        <item>
-            <title>Test page</title>
-            <link>http://example.org/test.html</link>
-            <pubDate>Sat, 12 Nov 2022 18:30:02 GMT</pubDate>
-            <description>Some text.</description>
-        </item>
-    </channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://dev.example.com/</id>
+    <title>Plant Blog</title>
+    <subtitle>This is a blog about plants</subtitle>
+    <updated>2022-11-23T10:20:00z</updated>
+
+    <entry>
+        <author>
+            <name>A22AdrianRV</name>
+        </author>
+        <title>Hibiscus</title>
+        <updated>2022-11-23T10:20:00z</updated>
+        <published>2022-11-23T10:20:00z</published>
+        <link rel="self">https://a22adrianrv.github.io/RSSplantProject/plant.html</link>
+    </entry>
+</feed>
